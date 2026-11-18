@@ -1,4 +1,4 @@
-#self-reflection: 1.  2.  3.
+#self-reflection: 1.A boolean filter asks a yes or no question about every row, checks each row against the condition, and keeps only the rows that pass  2.The single brackets return a series, the double brackets return a DataFrame. This distinction matters when you need several columns like in exercise 7  3.The most compelling reason I'd give is that your steps are written down as code so you can re-run them exactly.
 
 print("--Exercise 1--")
 import pandas as pd; df = pd.read_csv('data/retail_sales.csv')
